@@ -24,8 +24,8 @@ class TeamMatches extends Component {
     venue: data.venue,
     competingTeam: data.competing_team,
     competingTeamLogo: data.competing_team_logo,
-    firstInnings: data.firstInnings,
-    secondInnings: data.secondInnings,
+    firstInnings: data.first_innings,
+    secondInnings: data.second_innings,
     matchStatus: data.match_status,
   })
 
@@ -75,7 +75,7 @@ class TeamMatches extends Component {
 
   renderLoader = () => (
     <div data-testid="loader" className="loader-container">
-      <Loader type="Oval" color="#ffffff" height={50} width={50} />
+      <Loader type="Oval" color="#ffffff" height={50} />
     </div>
   )
 

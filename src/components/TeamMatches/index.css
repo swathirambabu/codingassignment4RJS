@@ -43,7 +43,7 @@
 .team-banner {
   width: 100%;
 }
-.recent-matches-container {
+.recent-matches-list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -51,7 +51,7 @@
   margin-top: 24px;
 }
 @media screen and (min-width: 768px) {
-  .recent-matches-container {
+  .recent-matches-list {
     margin-top: 32px;
   }
 }
