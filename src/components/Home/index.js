@@ -30,8 +30,8 @@ class Home extends Component {
 
     return (
       <ul className="teams-list">
-        {teamsData.map(each => (
-          <TeamCard teamDetails={each} key={each.id} />
+        {teamsData.map(teams => (
+          <TeamCard teamDetails={teams} key={teams.id} />
         ))}
       </ul>
     )
